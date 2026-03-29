@@ -84,8 +84,8 @@ public class Main {
             total += e.getAmount();
         }
 
-        System.out.printf("Total: $%.2f\n", total);
-        System.out.printf("Budget: $%.2f\n", budget);
+        System.out.printf("Total: Rs.%.2f\n", total);
+        System.out.printf("Budget: Rs.%.2f\n", budget);
 
         if (total > budget) {
             System.out.println("⚠️ Warning: You are over budget!");
