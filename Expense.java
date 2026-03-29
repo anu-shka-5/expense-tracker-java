@@ -23,6 +23,6 @@ public class Expense {
 
     @Override
     public String toString() {
-        return description + " | " + category + " | $" + amount;
+        return description + " | " + category + " | Rs." + amount;
     }
 }
