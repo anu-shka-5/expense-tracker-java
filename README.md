@@ -9,22 +9,32 @@ This project is a simple command-line based Expense Tracker built using Java. It
 
 ## Features
 - Add new expenses with description, amount, and category
-- View all recorded expenses
+- View all expenses
 - Calculate total amount spent
-- Save expenses to a file
+- Set and update budget
+- Warns when the budget is exceeded
+- Save data to a file
 - Load expenses automatically when the program starts
 
 ## Technologies Used
 - Java
 - ArrayList (Collections Framework)
 - File Handling (BufferedReader, FileWriter)
+- Scanner (for user input)
+
+## Project Structure
+ExpenseTracker/
+│── Main.java
+│── Expense.java
+│── expenses.txt (created automatically)
 
 ## How to Run
-
-1. Compile the program:
+1. Open the terminal and navigate to project folder.
+   
+3. Compile the program:
    javac Main.java Expense.java
 
-2. Run the program:
+4. Run the program:
    java Main
 
 ## File Storage
@@ -34,5 +44,11 @@ All expenses are stored in a file named `expenses.txt` in the same directory.
 Expense format in file:
 Lunch,150,Food
 
+## Future Improvements
+1. Add GUI using Java Swing
+2. Add edit/delete expense feature
+3. Add category-wise analysis
+4. Add date tracking
+
 ## Author
-Your Name
+Anushka Ranjan
