@@ -12,7 +12,7 @@ public class Main {
 
         boolean running = true;
         while (running) {
-            System.out.println("\n1. Add Expense | 2. View All | 3. View Total | 4. Set Budget | 5. Exit");
+            System.out.println("\n1. Set Budget | 2. Add Expense |3. View All | 4. View Total | 5. Exit");
             System.out.print("Choice: ");
 
             if (!scanner.hasNextInt()) {
@@ -26,16 +26,16 @@ public class Main {
 
             switch (choice) {
                 case 1:
-                    addExpense();
+                    setBudget();
                     break;
                 case 2:
-                    viewExpenses();
+                    addExpense();
                     break;
                 case 3:
-                    viewTotal();
+                    viewExpenses();
                     break;
                 case 4:
-                    setBudget();
+                    viewTotal();
                     break;
                 case 5:
                     saveToFile();
