@@ -12,7 +12,7 @@ public class Main {
 
         boolean running = true;
         while (running) {
-            System.out.println("\n1. Set Budget | 2. Add Expense |3. View All | 4. View Total | 5. Exit");
+            System.out.println("\n1. Set Budget | 2. Add Expense | 3. View All | 4. View Total | 5. Exit");
             System.out.print("Choice: ");
 
             if (!scanner.hasNextInt()) {
